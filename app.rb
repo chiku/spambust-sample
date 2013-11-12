@@ -25,5 +25,5 @@ class SampleApplication < Sinatra::Base
     erb :index, :locals => { :result => result }
   end
 
-  start_app if direct_script_execution? && ENV["environment"] != "test"
+  start_app if direct_script_execution?
 end
