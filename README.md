@@ -3,4 +3,4 @@
 spambust-sample
 ===============
 
-Demonstrate how to use spambust gem
+Demonstrate the usage of the [spambust gem](https://rubygems.org/gems/spambust/). This software is released under the MIT license. Please refer to LICENSE for more details.
