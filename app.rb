@@ -1,8 +1,10 @@
 #!/usr/bin/env ruby
 
-require "sinatra"
-require "spambust"
 
+require 'sinatra'
+require 'spambust'
+
+# Understands how to use spambust gem
 class SampleApplication < Sinatra::Base
   helpers Spambust::FormHelpers
 
@@ -12,17 +14,17 @@ class SampleApplication < Sinatra::Base
     end
 
     def direct_script_execution?
-      app_file == $0
+      app_file == $PROGRAM_NAME
     end
   end
 
-  get "/" do
-    erb :index, :locals => { :result => "..." }
+  get '/' do
+    erb :index, locals: { result: '...' }
   end
 
   post '/' do
-    result = valid?("user", params) ? "Users is #{decrypt("user", params)}" : "Faking is bad"
-    erb :index, :locals => { :result => result }
+    result = valid?('user', params) ? "Users is #{decrypt('user', params)}" : 'Faker!'
+    erb :index, locals: { result: result }
   end
 
   start_app if direct_script_execution?

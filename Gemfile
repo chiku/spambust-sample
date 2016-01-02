@@ -1,10 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "thin"
-gem "spambust"
+gem 'sinatra'
+gem 'thin'
+gem 'spambust'
 
 group :development do
-  gem "rerun"
-  gem "rake"
+  gem 'rerun'
+  gem 'rake'
 end
