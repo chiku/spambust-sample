@@ -7,4 +7,5 @@ gem 'spambust'
 group :development do
   gem 'rerun'
   gem 'rake'
+  gem 'rubocop'
 end
