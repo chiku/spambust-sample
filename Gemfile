@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'thin'
 gem 'spambust'
+gem 'thin'
 
 group :development do
-  gem 'rerun'
   gem 'rake'
+  gem 'rerun'
   gem 'rubocop'
 end
