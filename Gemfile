@@ -2,9 +2,10 @@
 
 source 'https://rubygems.org'
 
-gem 'sinatra', '~> 3.2'
+gem 'puma', '~> 6.6'
+gem 'rackup', '~> 2.2'
+gem 'sinatra', '~> 4.1'
 gem 'spambust', '~> 0.2'
-gem 'thin', '~> 1.8'
 
 group :development do
   gem 'rake', '~> 13.2'
