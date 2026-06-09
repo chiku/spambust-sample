@@ -23,13 +23,13 @@ GEM
     logger (1.7.0)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.7.4)
+    nio4r (2.7.5)
     parallel (1.27.0)
     parser (3.3.8.0)
       ast (~> 2.4.1)
       racc
     prism (1.4.0)
-    puma (6.6.0)
+    puma (7.2.1)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.6)
@@ -96,7 +96,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  puma (~> 6.6)
+  puma (~> 7.2)
   rackup (~> 2.2)
   rake (~> 13.2)
   rerun (~> 0.14)
