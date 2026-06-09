@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'puma', '~> 6.6'
+gem 'puma', '~> 7.2'
 gem 'rackup', '~> 2.2'
 gem 'sinatra', '~> 4.1'
 gem 'spambust', '~> 0.2'
